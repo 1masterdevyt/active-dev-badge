@@ -30,10 +30,10 @@ const rest = new REST({ version: '10' }).setToken(TOKEN);
       console.log(`Logged in as ${client.user.tag}`);
       
       // Set bot's status
-      client.user.setActivity('chill with manish', { type: 3 }); // Type 3 is "Watching"
+      client.user.setActivity('ᴅᴇᴠ ѕᴛᴜᴅɪᴏ ɪѕ ʙᴇѕᴛ ᴊᴏɪɴ ᴜѕ ꜰᴀѕᴛ', { type: 3 }); // Type 3 is "Watching"
       
       // Set bot's about me with watermark
-      const watermark = "Made with ❤️ by Manish | Active Developer Badge Bot | Get your badge in 24 hours!";
+      const watermark = "ᴛʜɪѕ ɪѕ ᴀ ʙᴏᴛ ᴏꜰ ᴅᴇᴠ ѕᴛᴜᴅɪᴏ ᴛʜᴇ ʙᴇѕᴛ ʙᴏᴛ ᴇᴠᴇʀ ᴍᴀᴅᴇ ʙʏ ʏᴏᴜᴛᴜʙᴇʀ - ᴍᴀѕᴛᴇʀᴅᴇᴠʏᴛ ᴅᴇᴠʟᴏᴘᴇʀᴇɴᴊᴏʏ ᴏᴜʀ ʙᴏᴛ ᴀɴᴅ ѕᴛᴀʏ ᴡɪᴛʜ ᴜѕ ᴇᴠᴇʀ ꜰᴏʀᴇᴠᴇʀ";
       
       // Function to ensure watermark stays
       const ensureWatermark = async () => {
